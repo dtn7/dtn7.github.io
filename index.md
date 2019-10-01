@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7
 
-You can use the [editor on GitHub](https://github.com/dtn7/dtn7.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this paper, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 13). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. Furthermore, we present results of a comparative experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Free and Open Source
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Our implementation of Bundle Protocol Version 7 is available online in the [corresponding GitHub repository (https://github.com/dtn7/dtn7-go)](https://github.com/dtn7/dtn7-go). Questions, comments and pull requests are very welcome. 
 
-```markdown
-Syntax highlighted code block
+## Usage
 
-# Header 1
-## Header 2
-### Header 3
+Installation is as easy as: 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+git clone https://github.com/dtn7/dtn7-go.git
+cd dtn7-go
+go build ./cmd/dtnd
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Check out the detailed installation guide and some examples to [using DTN7](https://github.com/dtn7/dtn7-go#installation).
 
-### Jekyll Themes
+## News
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dtn7/dtn7.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### AdHoc-Now 2019 Conference 
+##### 2019 Oct 01
+We are presenting our initial paper on the [AdHoc-Now 2019 conference](https://www.adhocnow2019.lu/programme/programme/) in Luxembourg from 1st to 3rd October 2019. The talk by Alvar Penning takes place in the 3rd technical session "Routing Strategies for WSN". The slides are available [here](#).
 
-### Support or Contact
+```bibtex
+@inproceedings{penning2019dtn7,
+  title={DTN7: An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7},
+  author={Penning, Alvar and Baumg{\"a}rtner, Lars and H{\"o}chst, Jonas and Sterz, Artur and Mezini, Mira and Freisleben, Bernd},
+  booktitle={International Conference on Ad-Hoc Networks and Wireless},
+  pages={196--209},
+  year={2019},
+  organization={Springer}
+}
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### DTN7 v0.3.0 released
+##### 2019 Sep 06
+This release features Delay-Tolerant Link State Routing (DTLSR) and a MTCP keep-alive mechanism to cope with link failures.
+
