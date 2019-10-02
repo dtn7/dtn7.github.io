@@ -5,7 +5,7 @@ In disruption-tolerant networking (DTN), data is transmitted in a store-carry-fo
 
 ## Free and Open Source
 
-Our implementation of Bundle Protocol Version 7 is available online in the [corresponding GitHub repository (https://github.com/dtn7/dtn7-go)](https://github.com/dtn7/dtn7-go). Questions, comments and pull requests are very welcome. 
+Our implementation of Bundle Protocol Version 7 is available online in the [corresponding GitHub repository](https://github.com/dtn7/dtn7-go) under the [GNU General Public License v3.0](https://github.com/dtn7/dtn7-go/blob/master/LICENSE). Questions, comments and pull requests are very welcome. 
 
 ## Usage
 
