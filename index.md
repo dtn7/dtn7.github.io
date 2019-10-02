@@ -1,6 +1,8 @@
 ## An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7
 
-In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this paper, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 13). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. Furthermore, we present results of a comparative experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
+In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this work, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 14). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. 
+
+Furthermore, we did an experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
 
 ## Free and Open Source
