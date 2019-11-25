@@ -1,6 +1,6 @@
 ## An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7
 
-In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this work, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 14). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. 
+In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this work, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 17). DTN7 is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. 
 
 Furthermore, we did an experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
@@ -26,7 +26,7 @@ Check out the detailed installation guide and some examples to [using DTN7](http
 
 ### [DTN7 v0.5.0](https://github.com/dtn7/dtn7-go/releases/tag/v0.5.0)
 ##### 2019 Nov 08
-LoRa-based Convergency Layer and update Bundle Protocol to [dtn-bpbis-17](https://tools.ietf.org/html/draft-ietf-dtn-bpbis-17).
+LoRa-based Convergency Layer and Bundle Protocol [dtn-bpbis-17](https://tools.ietf.org/html/draft-ietf-dtn-bpbis-17).
 
 
 ### [DTN7 v0.4.0 released](https://github.com/dtn7/dtn7-go/releases/tag/v0.4.0)
@@ -37,7 +37,7 @@ Furthermore, the PRoPHET routing protocol was added.
 
 ### AdHoc-Now 2019 Conference 
 ##### 2019 Oct 01
-We are presenting our initial paper on the [AdHoc-Now 2019 conference](https://www.adhocnow2019.lu/programme/programme/) in Luxembourg from 1st to 3rd October 2019. The talk by Alvar Penning takes place in the 3rd technical session "Routing Strategies for WSN". Download and read the research [paper](https://github.com/dtn7/adhocnow2019/releases/download/v1.0/penning2019dtn.pdf). Download the [slides of the talk](https://github.com/dtn7/adhocnow2019-slides/releases/download/v0.1.0/penning2019dtn-slides.pdf).
+We are presenting our initial paper on the [AdHoc-Now 2019 conference](https://www.adhocnow2019.lu/programme/programme/) in Luxembourg from 1st to 3rd October 2019. The talk by Alvar Penning takes place in the 3rd technical session "Routing Strategies for WSN". Download and read the [research paper](assets/penning2019dtn.pdf). Download the [slides of the talk](assets/penning2019dtn-slides.pdf).
 
 ```bibtex
 @inproceedings{penning2019dtn7,
