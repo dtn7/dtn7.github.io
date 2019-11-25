@@ -2,17 +2,13 @@
 
 In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node. In this work, we present an open source DTN implementation, called DTN7, of the recently released Bundle Protocol Version 7 (draft version 17). Currently there are two implementations maintained in our project
 
-## DTN7-go
-DTN7-go is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. 
-
+**DTN7-go** is written in Go and provides features like memory safety and concurrent execution. With its modular design and interchangeable components, DTN7 facilitates DTN research and application development. 
 Furthermore, we did an experimental evaluation of DTN7 and other DTN systems including Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
-## DTN7-rs
-DTN7-rs is written in Rust and provides an implementation focused on speed. With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
-
+**DTN7-rs** is written in Rust and provides an implementation focused on speed. With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
 A conducted evaluation shows, that the Rust implementation and WebAssembly as a platform provides enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint. 
 
-## Free and Open Source
+### Free and Open Source
 
 DTN7-go is available online in the [corresponding GitHub repository](https://github.com/dtn7/dtn7-go) under the [GNU General Public License v3.0](https://github.com/dtn7/dtn7-go/blob/master/LICENSE). DTN7-rs is also [available online](https://github.com/dtn7/dtn7-rs/) and
 licensed under either of <a href="https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-APACHE">Apache License, Version 2.0</a> or <a href="https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-MIT">MIT license</a> at your option.
