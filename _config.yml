@@ -4,12 +4,12 @@ title: "DTN7"
 description: An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7
 
 logo: assets/dtn7_logo.svg
-show_downloads: true
+show_downloads: false
 
 # google_analytics: [Your Google Analytics tracking ID]
 
 github:
   zip_url: https://github.com/dtn7/dtn7-go/archive/master.zip
   tar_url: https://github.com/dtn7/dtn7-go/archive/master.tar.gz
-  repository_url: https://github.com/dtn7/dtn7-go/
-  repository_nwo: dtn7/dtn7-go
+  repository_url: https://github.com/dtn7/
+  repository_nwo: dtn7
