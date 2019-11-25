@@ -23,6 +23,18 @@ Check out the detailed installation guide and some examples to [using DTN7](http
 
 ## News
 
+
+### [DTN7 v0.5.0](https://github.com/dtn7/dtn7-go/releases/tag/v0.5.0)
+##### 2019 Nov 08
+LoRa-based Convergency Layer and update Bundle Protocol to [dtn-bpbis-17](https://tools.ietf.org/html/draft-ietf-dtn-bpbis-17).
+
+
+### [DTN7 v0.4.0 released](https://github.com/dtn7/dtn7-go/releases/tag/v0.4.0)
+##### 2019 Oct 11
+This release implements the Delay-Tolerant Networking TCP Convergence Layer Protocol Version 4 for a bidirectional Bundle exchange.
+Furthermore, the PRoPHET routing protocol was added.
+
+
 ### AdHoc-Now 2019 Conference 
 ##### 2019 Oct 01
 We are presenting our initial paper on the [AdHoc-Now 2019 conference](https://www.adhocnow2019.lu/programme/programme/) in Luxembourg from 1st to 3rd October 2019. The talk by Alvar Penning takes place in the 3rd technical session "Routing Strategies for WSN". Download and read the research [paper](https://github.com/dtn7/adhocnow2019/releases/download/v1.0/penning2019dtn.pdf). Download the [slides of the talk](https://github.com/dtn7/adhocnow2019-slides/releases/download/v0.1.0/penning2019dtn-slides.pdf).
@@ -38,7 +50,7 @@ We are presenting our initial paper on the [AdHoc-Now 2019 conference](https://w
 }
 ```
 
-### DTN7 v0.3.0 released
+### [v0.3.0: DTLSR, MTCP Keep Alive](https://github.com/dtn7/dtn7-go/releases/tag/v0.3.0)
 ##### 2019 Sep 06
 This release features Delay-Tolerant Link State Routing (DTLSR) and a MTCP keep-alive mechanism to cope with link failures.
 
