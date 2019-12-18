@@ -30,9 +30,9 @@ Check out the detailed installation guide and some examples to [using DTN7](http
 ## News
 
 ### ICT-DM 2019 Conference 
-##### 2019 Nov 25
+##### 2019 Dec 18
 
-We are presenting a paper on browser-based DTN at the [ICT-DM 2019 conference](https://ict-dm2019.esiee.fr) in Paris from 18th to 20th of December 2019. Lars Baumgärtner will give his talk in the the 2nd plenary session "Wireless communications for disaster management" December 18th at 4:20 pm. The research paper is [available online](assets/baumgaertner2019bdtn7.pdf).
+We are presenting a paper on browser-based DTN at the [ICT-DM 2019 conference](https://ict-dm2019.esiee.fr) in Paris at 18th to 20th of December 2019. Lars Baumgärtner will give his talk in the the 2nd plenary session "Wireless communications for disaster management" December 18th at 4:20 pm. The [research paper](assets/baumgaertner2019bdtn7.pdf) and the [slides of the talk](assets/baumgaertner2019bdtn7-slides.pdf) are available online.
 
 ```bibtex
 @inproceedings{baumgaertner2019bdtn7,
