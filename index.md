@@ -29,6 +29,11 @@ Check out the detailed installation guide and some examples to [using DTN7](http
 
 ## News
 
+### 36th Chaos Communication Congress
+##### 2019 Dec 28
+
+Alvar Penning presented a Lightning Talk at 36c3 in Leipzig, Germany. The talk will later be available on [media.ccc.de](https://media.ccc.de), the [slides are available online](assets/36c3lt.pdf). 
+
 ### ICT-DM 2019 Conference 
 ##### 2019 Dec 18
 
