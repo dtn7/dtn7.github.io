@@ -29,6 +29,25 @@ Check out the detailed installation guide and some examples to [using DTN7](http
 
 ## News
 
+### ISCRAM 2020 Conference
+##### 2020 Feb 14
+
+Our paper presenting an approach to facilitate long-range device-to-device communication via smartphones in crisis scenarios got accepted at [ISCRAM 2020](https://www.drrm.fralin.vt.edu/iscram2020/index.php).
+An integration of LoRa into DTN7 was presented and evaluated in the paper.
+A preprint of the paper [is available here](assets/hoechst2020lora.pdf), the experiment fragments are available in the respective [GitHub repository](https://github.com/umr-ds/hoechst2020lora). The paper will be presented by Artur Sterz at the conference in May.
+
+```bibtex
+@inproceedings{hoechst2020lora,
+  author = {Höchst, Jonas and Baumgärtner, Lars and Kuntke, Franz and Penning, Alvar and Sterz, Artur and Freisleben, Bernd},
+  title = {LoRa-based Device-to-Device Smartphone Communication for Crisis Scenarios},
+  booktitle = {17th International Conference on Information Systems for Crisis Response and Management (ISCRAM 2020)},
+  address = {Blacksburg, Virginia, USA},
+  month = may,
+  year = {2020},
+  keywords = {LoRa, Disaster Communication, Device-To-Device Communication},
+}
+```
+
 ### 36th Chaos Communication Congress
 ##### 2019 Dec 28
 
@@ -59,7 +78,7 @@ The talk is also available at [media.ccc.de](https://media.ccc.de/v/36c3-10524-l
 ### ICT-DM 2019 Conference 
 ##### 2019 Dec 18
 
-We are presenting a paper on browser-based DTN at the [ICT-DM 2019 conference](https://ict-dm2019.esiee.fr) in Paris at 18th to 20th of December 2019. Lars Baumgärtner will give his talk in the the 2nd plenary session "Wireless communications for disaster management" December 18th at 4:20 pm. The [research paper](assets/baumgaertner2019bdtn7.pdf) and the [slides of the talk](assets/baumgaertner2019bdtn7-slides.pdf) are available online.
+We presented a paper on browser-based DTN at the [ICT-DM 2019 conference](https://ict-dm2019.esiee.fr) in Paris at 18th to 20th of December 2019. Lars Baumgärtner gave his talk in the the 2nd plenary session "Wireless communications for disaster management" December 18th at 4:20 pm. The [research paper](assets/baumgaertner2019bdtn7.pdf) and the [slides of the talk](assets/baumgaertner2019bdtn7-slides.pdf) are available online.
 
 ```bibtex
 @inproceedings{baumgaertner2019bdtn7,
