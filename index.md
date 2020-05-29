@@ -31,35 +31,8 @@ the same time leaving only a minimal memory/storage footprint.
 
 Questions, comments and pull requests are very welcome.
 
-## Usage
-
-### DTN7-go
-
-Installation is as easy as:
-
-```bash
-git clone https://github.com/dtn7/dtn7-go.git
-cd dtn7-go
-go build ./cmd/dtnd
-```
-
-Check out the detailed installation guide and some examples to [using
-DTN7-go][dtn7-go-installation].
-
-
-### DTN7-rs
-
-Installation is as easy as:
-
-```bash
-cargo install dtn7
-```
-
-Check out more information about [using DTN7-rs][dtn7-rs].
-
 
 [dtn7-go]:https://github.com/dtn7/dtn7-go
-[dtn7-go-installation]:https://github.com/dtn7/dtn7-go#installation
 [dtn7-go-gpl3]:https://github.com/dtn7/dtn7-go/blob/master/LICENSE
 [dtn7-rs]:https://github.com/dtn7/dtn7-rs
 [dtn7-rs-apl2]:https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-APACHE
