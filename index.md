@@ -1,22 +1,21 @@
-## An Open-Source Disruption-tolerant Networking Implementation of Bundle Protocol 7
+## Disruption-Tolerant Networking Implementations of Bundle Protocol 7
 
 In disruption-tolerant networking (DTN), data is transmitted in a
-store-carry-forward fashion from network node to network node. In this work, we
-present an open source DTN implementation, called DTN7, of the recently released
-Bundle Protocol Version 7 [(draft version 23)][ietf-dtn-bpbis-23]. Currently
-there are two implementations maintained in our project
+store-carry-forward fashion from network node to network node.  We are
+presenting two free and open source DTN implementations of the recently released
+Bundle Protocol Version 7 [(draft version 23)][ietf-dtn-bpbis-23].
 
 __DTN7-go__ is written in Go and provides features like memory safety and
 concurrent execution. With its modular design and interchangeable components,
-DTN7 facilitates DTN research and application development.  Furthermore, we did
-an experimental evaluation of DTN7 and other DTN systems including Serval,
-IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and efficient
-open-source multi-platform implementation of the most recent Bundle Protocol
-Version 7.
+DTN7-go facilitates DTN research and application development. Furthermore, we
+did an experimental evaluation of DTN7-go and other DTN systems including
+Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and
+efficient open-source multi-platform implementation of the most recent Bundle
+Protocol Version 7.
 
 __DTN7-rs__ is written in Rust and provides an implementation focused on speed.
 With the rust compiler working with the LLVM backend, it can be compiled for a
-huge amount of platforms, including WebAssembly to be executed in a browser.  A
+huge amount of platforms, including WebAssembly to be executed in a browser. A
 conducted evaluation shows, that the Rust implementation and WebAssembly as a
 platform provides enough performance for even higher bundle workloads, while at
 the same time leaving only a minimal memory/storage footprint.
