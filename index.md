@@ -77,8 +77,11 @@ communication via smartphones in crisis scenarios got accepted at [ISCRAM
 2020][iscram-2020]. An integration of LoRa into DTN7 was presented and evaluated
 in the paper. A preprint of the paper [is available here][iscram-2020-preprint],
 the experiment fragments are available in the respective
-[GitHub repository][iscram-2020-experiment]. The paper will be presented by
-Artur Sterz at the conference in May.
+[GitHub repository][iscram-2020-experiment].
+
+Due to the COVID19-pandemic, the ISCRAM 2020 conference unfortunately did not
+take place. Therefore Artur Sterz will probably present our paper next year.
+
 
 ```bibtex
 @inproceedings{hoechst2020lora,
@@ -100,8 +103,9 @@ Artur Sterz at the conference in May.
 ### 36th Chaos Communication Congress
 ##### 2019 Dec 28
 
-
 Alvar Penning presented a [Lightning Talk at 36c3][36c3-lt] in Leipzig, Germany.
+The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and
+[YouTube][36c3-lt-youtube], the [slides are available online][36c3-lt-slides].
 
 <style>
     .embed-container {
@@ -128,11 +132,12 @@ Alvar Penning presented a [Lightning Talk at 36c3][36c3-lt] in Leipzig, Germany.
   </iframe>
 </div>
 
-The talk is also available at [media.ccc.de][36c3-lt-media-ccc], the
-[slides are available online][36c3-lt-slides].
+<!-- Force another paragraph for more space between the news items. -->
+&nbsp;
 
 [36c3-lt]:https://events.ccc.de/congress/2019/wiki/index.php/Static:Lightning_Talks
 [36c3-lt-media-ccc]:https://media.ccc.de/v/36c3-10524-lightning_talks_day_2
+[36c3-lt-youtube]:https://youtu.be/ZdnXO56QR7g?t=3780
 [36c3-lt-slides]:{{ site.baseurl }}{% link assets/36c3lt.pdf %}
 
 
@@ -166,11 +171,11 @@ available online.
 ### AdHoc-Now 2019 Conference
 ##### 2019 Oct 01
 
-We are presenting our initial paper on the [AdHoc-Now 2019
-conference][adhoc-now-2019] in Luxembourg from 1st to 3rd October 2019. The talk
-by Alvar Penning takes place in the 3rd technical session "Routing Strategies
-for WSN". Download and read the [research paper][adhoc-now-2019-paper]. Download
-the [slides of the talk][adhoc-now-2019-slides].
+We presented our initial paper on the [AdHoc-Now 2019
+conference][adhoc-now-2019] in Luxembourg at 1st to 3rd October 2019. The talk
+by Alvar Penning took place in the 3rd technical session "Routing Strategies for
+WSN". Download and read the [research paper][adhoc-now-2019-paper]. Download the
+[slides of the talk][adhoc-now-2019-slides].
 
 ```bibtex
 @inproceedings{penning2019dtn7,
