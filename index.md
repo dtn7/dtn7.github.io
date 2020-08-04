@@ -3,7 +3,7 @@
 In disruption-tolerant networking (DTN), data is transmitted in a
 store-carry-forward fashion from network node to network node.  We are
 presenting two free and open source DTN implementations of the recently released
-Bundle Protocol Version 7 [(draft version 25)][ietf-dtn-bpbis-25].
+Bundle Protocol Version 7 [(draft version 26)][ietf-dtn-bpbis-26].
 
 __DTN7-go__ is written in Go and provides features like memory safety and
 concurrent execution. With its modular design and interchangeable components,
@@ -37,8 +37,7 @@ Questions, comments and pull requests are very welcome.
 [dtn7-rs]:https://github.com/dtn7/dtn7-rs
 [dtn7-rs-apl2]:https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-APACHE
 [dtn7-rs-mit]:https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-MIT
-[ietf-dtn-bpbis-25]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-25
-<!-- TODO: move the link to ietf-dtn-bpbis-25 to its news item when updating -->
+[ietf-dtn-bpbis-26]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-26
 
 
 ## News
@@ -50,6 +49,8 @@ In the recently published Bundle Protocol Version 7
 [draft version 25][ietf-dtn-bpbis-25] our two implementations were mentioned.
 The _Implementation Status_ section shows known implementations. This list now
 also includes [DTN7-go][dtn7-go] and [DTN7-rs][dtn7-rs].
+
+[ietf-dtn-bpbis-25]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-25
 
 
 ### ISCRAM 2020 Conference
