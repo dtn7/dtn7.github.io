@@ -1,33 +1,23 @@
 ## Disruption-Tolerant Networking Implementations of Bundle Protocol 7
 
-In disruption-tolerant networking (DTN), data is transmitted in a
-store-carry-forward fashion from network node to network node.  We are
-presenting two free and open source DTN implementations of the recently released
-Bundle Protocol Version 7 [(draft version 26)][ietf-dtn-bpbis-26].
+In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node.
+Other places also refer to the name delay-tolerant networking, which is the same in this context.
+We are presenting free and open source DTN implementations of the recently released Bundle Protocol Version 7 [(draft version 26)][ietf-dtn-bpbis-26].
 
-__DTN7-go__ is written in Go and provides features like memory safety and
-concurrent execution. With its modular design and interchangeable components,
-DTN7-go facilitates DTN research and application development. Furthermore, we
-did an experimental evaluation of DTN7-go and other DTN systems including
-Serval, IBR-DTN, and Forban. Our results indicate that DTN7 is a flexible and
-efficient open-source multi-platform implementation of the most recent Bundle
-Protocol Version 7.
+__DTN7-go__ is written in Go and provides features like memory safety and concurrent execution.
+With its modular design and interchangeable components, DTN7-go facilitates DTN research and application development.
+Furthermore, we did an experimental evaluation of DTN7-go and other DTN systems including Serval, IBR-DTN, and Forban.
+Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
 __DTN7-rs__ is written in Rust and provides an implementation focused on speed.
-With the rust compiler working with the LLVM backend, it can be compiled for a
-huge amount of platforms, including WebAssembly to be executed in a browser. A
-conducted evaluation shows, that the Rust implementation and WebAssembly as a
-platform provides enough performance for even higher bundle workloads, while at
-the same time leaving only a minimal memory/storage footprint.
+With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
+A conducted evaluation shows, that the Rust implementation and WebAssembly as a platform provides enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint.
 
 
 ### Free and Open Source
 
-- DTN7-go is available online in the [corresponding GitHub repository][dtn7-go]
-  under the [GNU General Public License v3.0][dtn7-go-gpl3].
-- DTN7-rs is also [available online][dtn7-rs] and licensed under either of
-  [Apache License, Version 2.0][dtn7-rs-apl2] or [MIT license][dtn7-rs-mit] at
-  your option.
+- DTN7-go is available online in the [corresponding GitHub repository][dtn7-go] under the [GNU General Public License v3.0][dtn7-go-gpl3].
+- DTN7-rs is also [available online][dtn7-rs] and licensed under either of [Apache License, Version 2.0][dtn7-rs-apl2] or [MIT license][dtn7-rs-mit] at your option.
 
 Questions, comments and pull requests are very welcome.
 
@@ -45,10 +35,9 @@ Questions, comments and pull requests are very welcome.
 ### Bundle Protocol Version 7, Draft 25
 ##### 2020 May 22
 
-In the recently published Bundle Protocol Version 7
-[draft version 25][ietf-dtn-bpbis-25] our two implementations were mentioned.
-The _Implementation Status_ section shows known implementations. This list now
-also includes [DTN7-go][dtn7-go] and [DTN7-rs][dtn7-rs].
+In the recently published Bundle Protocol Version 7 [draft version 25][ietf-dtn-bpbis-25] our two implementations were mentioned.
+The _Implementation Status_ section shows known implementations.
+This list now also includes [DTN7-go][dtn7-go] and [DTN7-rs][dtn7-rs].
 
 [ietf-dtn-bpbis-25]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-25
 
@@ -56,15 +45,12 @@ also includes [DTN7-go][dtn7-go] and [DTN7-rs][dtn7-rs].
 ### ISCRAM 2020 Conference
 ##### 2020 Feb 14
 
-Our paper presenting an approach to facilitate long-range device-to-device
-communication via smartphones in crisis scenarios got accepted at [ISCRAM
-2020][iscram-2020]. An integration of LoRa into DTN7 was presented and evaluated
-in the paper. A preprint of the paper [is available here][iscram-2020-preprint],
-the experiment fragments are available in the respective
-[GitHub repository][iscram-2020-experiment].
+Our paper presenting an approach to facilitate long-range device-to-device communication via smartphones in crisis scenarios got accepted at [ISCRAM 2020][iscram-2020].
+An integration of LoRa into DTN7 was presented and evaluated in the paper.
+A preprint of the paper [is available here][iscram-2020-preprint], the experiment fragments are available in the respective [GitHub repository][iscram-2020-experiment].
 
-Due to the COVID19-pandemic, the ISCRAM 2020 conference unfortunately did not
-take place. Therefore Artur Sterz will probably present our paper next year.
+Due to the COVID19-pandemic, the ISCRAM 2020 conference unfortunately did not take place.
+Therefore Artur Sterz will probably present our paper next year.
 
 
 ```bibtex
@@ -88,8 +74,7 @@ take place. Therefore Artur Sterz will probably present our paper next year.
 ##### 2019 Dec 28
 
 Alvar Penning presented a [Lightning Talk at 36c3][36c3-lt] in Leipzig, Germany.
-The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and
-[YouTube][36c3-lt-youtube], the [slides are available online][36c3-lt-slides].
+The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and [YouTube][36c3-lt-youtube], the [slides are available online][36c3-lt-slides].
 
 <style>
     .embed-container {
@@ -128,12 +113,9 @@ The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and
 ### ICT-DM 2019 Conference
 ##### 2019 Dec 18
 
-We presented a paper on browser-based DTN at the [ICT-DM 2019
-conference][ict-dm-2019] in Paris at 18th to 20th of December 2019. Lars
-Baumgärtner gave his talk in the the 2nd plenary session "Wireless
-communications for disaster management" December 18th at 4:20 pm. The [research
-paper][ict-dm-2019-paper] and the [slides of the talk][ict-dm-2019-slides] are
-available online.
+We presented a paper on browser-based DTN at the [ICT-DM 2019 conference][ict-dm-2019] in Paris at 18th to 20th of December 2019.
+Lars Baumgärtner gave his talk in the the 2nd plenary session "Wireless communications for disaster management" December 18th at 4:20 pm.
+The [research paper][ict-dm-2019-paper] and the [slides of the talk][ict-dm-2019-slides] are available online.
 
 ```bibtex
 @inproceedings{baumgaertner2019bdtn7,
@@ -155,11 +137,10 @@ available online.
 ### AdHoc-Now 2019 Conference
 ##### 2019 Oct 01
 
-We presented our initial paper on the [AdHoc-Now 2019
-conference][adhoc-now-2019] in Luxembourg at 1st to 3rd October 2019. The talk
-by Alvar Penning took place in the 3rd technical session "Routing Strategies for
-WSN". Download and read the [research paper][adhoc-now-2019-paper]. Download the
-[slides of the talk][adhoc-now-2019-slides].
+We presented our initial paper on the [AdHoc-Now 2019 conference][adhoc-now-2019] in Luxembourg at 1st to 3rd October 2019.
+The talk by Alvar Penning took place in the 3rd technical session "Routing Strategies for WSN".
+Download and read the [research paper][adhoc-now-2019-paper].
+Download the [slides of the talk][adhoc-now-2019-slides].
 
 ```bibtex
 @inproceedings{penning2019dtn7,
@@ -178,4 +159,4 @@ WSN". Download and read the [research paper][adhoc-now-2019-paper]. Download the
 [adhoc-now-2019-slides]:{{ site.baseurl }}{% link assets/penning2019dtn-slides.pdf %}
 
 
-<!-- vim: set tw=80 ts=2 ft=markdown: -->
+<!-- vim: set ts=2 ft=markdown spell: -->
