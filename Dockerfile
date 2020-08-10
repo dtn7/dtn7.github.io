@@ -2,7 +2,7 @@
 
 FROM starefossen/ruby-node:2-6-alpine
 
-ENV GITHUB_GEM_VERSION 204
+ENV GITHUB_GEM_VERSION 207
 
 RUN apk --update add --virtual build_deps \
     build-base ruby-dev libc-dev linux-headers \
