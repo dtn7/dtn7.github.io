@@ -32,6 +32,30 @@ Questions, comments and pull requests are very welcome.
 
 ## News
 
+### GHTC 2020 Conference
+##### 2020 Oct 31
+
+We presented a simple short messaging system based upon [dtn7-rs][dtn7-rs] including an evaluation of different compression algorithms at [GHTC 2020][ghtc-2020].
+The main focus of this research was on making the most of the limited resources available with LoRa networks.
+A preprint of the paper [is available here][ghtc-2020-preprint].
+
+```bibtex
+@inproceedings{baumgaertner2020loragent,
+  author = {Baumgärtner, Lars and Lieser, Patrick and Zobel, Julian and Bastian, Bloessl and Steinmetz, Ralf and Mezini, Mira},
+  title = {LoRAgent: A DTN-based Location-aware Communication System using LoRa},
+  booktitle = {IEEE Global Humanitarian Technology Conference (GHTC 2020)},
+  address = {Seattle, Washington, USA},
+  month = oct,
+  year = {2020},
+  keywords = {LoRa, Disaster Communication, Messaging},
+  organization={IEEE},
+}
+```
+
+[ghtc-2020]:https://ieeeghtc.org/archives/ghtc-2020/
+[ghtc-2020-preprint]:https://www.bastibl.net/bib/baumgaertner2020loragent/baumgaertner2020loragent.pdf
+
+
 ### Bundle Protocol Version 7, Draft 25
 ##### 2020 May 22
 
