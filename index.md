@@ -32,6 +32,42 @@ Questions, comments and pull requests are very welcome.
 
 ## News
 
+### Getting Started with dtn7-rs
+##### 2020 Dec 1
+We prepared a [getting-started][getting-started-dtn7-rs] docuemt for [dtn7-rs][dtn7-rs] that describes how to use and setup dtn7 in combination with the [core network emulator][coreemu]. The steps are also avaibable as a video demonstration.
+
+<style>
+    .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<div class='embed-container'>
+  <iframe
+    src='https://www.youtube-nocookie.com/embed/7xwJEZyL_Ns'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Force another paragraph for more space between the news items. -->
+&nbsp;
+
+[getting-started-dtn7-rs]:https://github.com/dtn7/dtn7-rs/blob/master/doc/getting-started.md
+[coreemu]:https://github.com/coreemu/core
+
+
 ### GHTC 2020 Conference
 ##### 2020 Oct 31
 
