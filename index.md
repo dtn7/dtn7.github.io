@@ -14,15 +14,31 @@ Our results indicate that DTN7 is a flexible and efficient open-source multi-pla
 With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
 A conducted evaluation shows, that the Rust implementation and WebAssembly as a platform provides enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint.
 
+[DTN7-kotlin][dtn7-kotlin] is written in Kotlin, well unit-tested and compatible with DTN7-go's bpv7 suite.
+It implements the Bundle Protocol Security Specification.
+
 [dtn7-go]:https://github.com/dtn7/dtn7-go
+[dtn7-kotlin]:https://github.com/NodleCode/dtn7-kotlin/
 [dtn7-rs]:https://github.com/dtn7/dtn7-rs
 [ietf-dtn-bpbis-31]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-31
 
 
 ## News
 
+### DTN7-kotlin: A new Implementation
+##### 2021 Feb 22
+
+We are very pleased to announce that there is a new DTN implementation which also follows the DTN7 naming scheme, [DTN7-kotlin][dtn7-kotlin].
+This implementation from Lucien Loiseau, Nodle.io, is well unit-tested and compatible with DTN7-go's bpv7 suite.
+It also implements the Bundle Protocol Security Specification [(draft 26)][ietf-dtn-bpsec-26].
+
+[dtn7-kotlin]:https://github.com/NodleCode/dtn7-kotlin/
+[ietf-dtn-bpsec-26]:https://tools.ietf.org/html/draft-ietf-dtn-bpsec-26
+
+
 ### Getting Started with dtn7-rs
 ##### 2020 Dec 1
+
 We prepared a [getting-started][getting-started-dtn7-rs] docuemt for [dtn7-rs][dtn7-rs] that describes how to use and setup dtn7 in combination with the [core network emulator][coreemu]. The steps are also avaibable as a video demonstration.
 
 <style>
