@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: "DTN7"
-description: "Disruption-Tolerant Networking Implementations of Bundle Protocol 7"
+# description: "Disruption-Tolerant Networking Implementations of the Bundle Protocol 7"
 
 logo: assets/dtn7_logo.svg
 show_downloads: false

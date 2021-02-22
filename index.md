@@ -1,33 +1,22 @@
-## Disruption-Tolerant Networking Implementations of Bundle Protocol 7
+## Disruption-Tolerant Networking Implementations of the Bundle Protocol 7
 
 In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node.
 Other places also refer to the name delay-tolerant networking, which is the same in this context.
-We are presenting free and open source DTN implementations of the recently released Bundle Protocol Version 7 [(draft version 26)][ietf-dtn-bpbis-26].
 
-__DTN7-go__ is written in Go and provides features like memory safety and concurrent execution.
+We are presenting free and open source DTN implementations of the recently released Bundle Protocol Version 7 [(draft version 31)][ietf-dtn-bpbis-31].
+
+[DTN7-go][dtn7-go] is written in Go and provides features like memory safety and concurrent execution.
 With its modular design and interchangeable components, DTN7-go facilitates DTN research and application development.
 Furthermore, we did an experimental evaluation of DTN7-go and other DTN systems including Serval, IBR-DTN, and Forban.
 Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
-__DTN7-rs__ is written in Rust and provides an implementation focused on speed.
+[DTN7-rs][dtn7-rs] is written in Rust and provides an implementation focused on speed.
 With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
 A conducted evaluation shows, that the Rust implementation and WebAssembly as a platform provides enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint.
 
-
-### Free and Open Source
-
-- DTN7-go is available online in the [corresponding GitHub repository][dtn7-go] under the [GNU General Public License v3.0][dtn7-go-gpl3].
-- DTN7-rs is also [available online][dtn7-rs] and licensed under either of [Apache License, Version 2.0][dtn7-rs-apl2] or [MIT license][dtn7-rs-mit] at your option.
-
-Questions, comments and pull requests are very welcome.
-
-
 [dtn7-go]:https://github.com/dtn7/dtn7-go
-[dtn7-go-gpl3]:https://github.com/dtn7/dtn7-go/blob/master/LICENSE
 [dtn7-rs]:https://github.com/dtn7/dtn7-rs
-[dtn7-rs-apl2]:https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-APACHE
-[dtn7-rs-mit]:https://github.com/dtn7/dtn7-rs/blob/master/LICENSE-MIT
-[ietf-dtn-bpbis-26]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-26
+[ietf-dtn-bpbis-31]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-31
 
 
 ## News
