@@ -3,16 +3,17 @@
 In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node.
 Other places also refer to the name delay-tolerant networking, which is the same in this context.
 
-We are presenting free and open source DTN implementations of the recently released Bundle Protocol Version 7 [(draft version 31)][ietf-dtn-bpbis-31].
+We are presenting free and open source DTN implementations of the recently released Bundle Protocol Version 7 [(RFC 9171)][RFC9171].
 
 [DTN7-go][dtn7-go] is written in Go and provides features like memory safety and concurrent execution.
 With its modular design and interchangeable components, DTN7-go facilitates DTN research and application development.
 Furthermore, we did an experimental evaluation of DTN7-go and other DTN systems including Serval, IBR-DTN, and Forban.
 Our results indicate that DTN7 is a flexible and efficient open-source multi-platform implementation of the most recent Bundle Protocol Version 7.
 
-[DTN7-rs][dtn7-rs] is written in Rust and provides an implementation focused on speed.
-With the rust compiler working with the LLVM backend, it can be compiled for a huge amount of platforms, including WebAssembly to be executed in a browser.
-A conducted evaluation shows, that the Rust implementation and WebAssembly as a platform provides enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint.
+[DTN7-rs][dtn7-rs] is written in Rust and provides an implementation focused on speed, safety, and flexibility.
+Due to its modular design, the actual bundle encoding can be used standalone if needed without the actual dtn7 bundle agent.
+A conducted evaluation shows that the Rust implementation and WebAssembly as a platform provide enough performance for even higher bundle workloads, while at the same time leaving only a minimal memory/storage footprint.
+Furthermore, different storage backends, routing, and convergence layer agents exist in the dtn7 daemon for various use-cases.
 
 [DTN7-kotlin][dtn7-kotlin] is written in Kotlin, well unit-tested and compatible with DTN7-go's bpv7 suite.
 It implements the Bundle Protocol Security Specification.
@@ -20,10 +21,67 @@ It implements the Bundle Protocol Security Specification.
 [dtn7-go]:https://github.com/dtn7/dtn7-go
 [dtn7-kotlin]:https://github.com/NodleCode/dtn7-kotlin/
 [dtn7-rs]:https://github.com/dtn7/dtn7-rs
-[ietf-dtn-bpbis-31]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-31
+[RFC9171]:https://datatracker.ietf.org/doc/rfc9171/
+[RFC9172]:https://datatracker.ietf.org/doc/rfc9172/
+[RFC9173]:https://datatracker.ietf.org/doc/rfc9173/
+[RFC9174]:https://datatracker.ietf.org/doc/rfc9174/
 
 
 ## News
+
+### Happy Birthday Bundle Protocol Version 7!
+##### 2022 Feb 1
+
+The waiting is over!
+The bundle protocol version 7 draft finally turned into [RFC 9171][RFC9171] together with [BPSec][RFC9172], [security contexts for BPSec][RFC9173] and [TCP CL][RFC9174]. 
+
+<!-- Force another paragraph for more space between the news items. -->
+&nbsp;
+
+[awesome-dtn]:https://github.com/dtn7/awesome-dtn
+
+
+### Awesome DTN
+##### 2021 Mar 2
+
+We started an [awesome DTN][awesome-dtn] list with links to different DTN and bundle protocol implementations plus various video resources, etc.
+
+<!-- Force another paragraph for more space between the news items. -->
+&nbsp;
+
+[awesome-dtn]:https://github.com/dtn7/awesome-dtn
+
+
+### DTNs Explained
+##### 2020 May 12
+
+<style>
+    .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<div class='embed-container'>
+  <iframe
+    src='https://www.youtube-nocookie.com/embed/BGQD1UN_q_g'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Force another paragraph for more space between the news items. -->
+&nbsp;
 
 ### DTN7-kotlin: A new Implementation
 ##### 2021 Feb 22
@@ -32,14 +90,12 @@ We are very pleased to announce that there is a new DTN implementation which als
 This implementation from Lucien Loiseau, Nodle.io, is well unit-tested and compatible with DTN7-go's bpv7 suite.
 It also implements the Bundle Protocol Security Specification [(draft 26)][ietf-dtn-bpsec-26].
 
-[dtn7-kotlin]:https://github.com/NodleCode/dtn7-kotlin/
-[ietf-dtn-bpsec-26]:https://tools.ietf.org/html/draft-ietf-dtn-bpsec-26
-
 
 ### Getting Started with dtn7-rs
 ##### 2020 Dec 1
 
-We prepared a [getting-started][getting-started-dtn7-rs] docuemt for [dtn7-rs][dtn7-rs] that describes how to use and setup dtn7 in combination with the [core network emulator][coreemu]. The steps are also avaibable as a video demonstration.
+We prepared a [getting-started][getting-started-dtn7-rs] documet for [dtn7-rs][dtn7-rs] that describes how to use and setup dtn7 in combination with the [core network emulator][coreemu]. 
+The steps are also avaibable as a video demonstration.
 
 <style>
     .embed-container {
