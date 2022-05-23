@@ -1,3 +1,20 @@
+<style>
+    .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
 ## Disruption-Tolerant Networking Implementations of the Bundle Protocol 7
 
 In disruption-tolerant networking (DTN), data is transmitted in a store-carry-forward fashion from network node to network node.
@@ -29,48 +46,61 @@ It implements the Bundle Protocol Security Specification.
 
 ## News
 
+### NETYS 2022 Conference
+##### 2022 May 
+
+We present ProgDTN, a novel approach to support programmable disruption-tolerant networking by allowing network operators to implement and adapt routing algorithms without knowledge of a router’s interior workings using the popular JavaScript language. ProgDTN is based on dtn7-go. 
+
+A preprint of the paper [is available here][sommer2022progdtn-preprint] and the [talk has been recorded][sommer2022progdtn-talk]:
+
+<div class='embed-container'>
+  <iframe
+    src='https://www.youtube-nocookie.com/embed/u9lgwYoCZEE'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+```bibtex
+@inproceedings{sommer2022progdtn,
+  title = {ProgDTN: Programmable Disruption-tolerant Networking},
+  author = {Sommer, Markus and Höchst, Jonas and Sterz, Artur and Penning, Alvar and Freisleben, Bernd},
+  booktitle = {International Conference on Networked Systems (NETYS)},
+  year = {2022},
+  month = may,
+  organization = {Springer}
+}
+```
+
+[sommer2022progdtn-preprint]:assets/sommer2022progdtn.pdf
+[sommer2022progdtn-talk]:https://www.youtube.com/watch?v=u9lgwYoCZEE
+
+---
+
 ### Happy Birthday Bundle Protocol Version 7!
 ##### 2022 Feb 1
 
 The waiting is over!
 The bundle protocol version 7 draft finally turned into [RFC 9171][RFC9171] together with [BPSec][RFC9172], [security contexts for BPSec][RFC9173] and [TCP CL][RFC9174]. 
 
-<!-- Force another paragraph for more space between the news items. -->
-&nbsp;
-
 [awesome-dtn]:https://github.com/dtn7/awesome-dtn
 
+---
 
 ### Awesome DTN
 ##### 2021 Mar 2
 
 We started an [awesome DTN][awesome-dtn] list with links to different DTN and bundle protocol implementations plus various video resources, etc.
 
-<!-- Force another paragraph for more space between the news items. -->
-&nbsp;
-
 [awesome-dtn]:https://github.com/dtn7/awesome-dtn
 
+---
 
 ### DTNs Explained
 ##### 2020 May 12
 
-<style>
-    .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-    }
-    .embed-container iframe, .embed-container object, .embed-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-</style>
+A simple explanation of disruption/delay-tolerant networking.
 
 <div class='embed-container'>
   <iframe
@@ -80,8 +110,7 @@ We started an [awesome DTN][awesome-dtn] list with links to different DTN and bu
   </iframe>
 </div>
 
-<!-- Force another paragraph for more space between the news items. -->
-&nbsp;
+---
 
 ### DTN7-kotlin: A new Implementation
 ##### 2021 Feb 22
@@ -90,29 +119,14 @@ We are very pleased to announce that there is a new DTN implementation which als
 This implementation from Lucien Loiseau, Nodle.io, is well unit-tested and compatible with DTN7-go's bpv7 suite.
 It also implements the Bundle Protocol Security Specification [(draft 26)][ietf-dtn-bpsec-26].
 
+---
 
 ### Getting Started with dtn7-rs
 ##### 2020 Dec 1
 
 We prepared a [getting-started][getting-started-dtn7-rs] documet for [dtn7-rs][dtn7-rs] that describes how to use and setup dtn7 in combination with the [core network emulator][coreemu]. 
-The steps are also avaibable as a video demonstration.
+The steps are also available as a video demonstration.
 
-<style>
-    .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-    }
-    .embed-container iframe, .embed-container object, .embed-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-</style>
 
 <div class='embed-container'>
   <iframe
@@ -122,12 +136,10 @@ The steps are also avaibable as a video demonstration.
   </iframe>
 </div>
 
-<!-- Force another paragraph for more space between the news items. -->
-&nbsp;
-
 [getting-started-dtn7-rs]:https://github.com/dtn7/dtn7-rs/blob/master/doc/getting-started.md
 [coreemu]:https://github.com/coreemu/core
 
+---
 
 ### GHTC 2020 Conference
 ##### 2020 Oct 31
@@ -152,6 +164,7 @@ A preprint of the paper [is available here][ghtc-2020-preprint].
 [ghtc-2020]:https://ieeeghtc.org/archives/ghtc-2020/
 [ghtc-2020-preprint]:https://www.bastibl.net/bib/baumgaertner2020loragent/baumgaertner2020loragent.pdf
 
+---
 
 ### Bundle Protocol Version 7, Draft 25
 ##### 2020 May 22
@@ -162,6 +175,7 @@ This list now also includes [DTN7-go][dtn7-go] and [DTN7-rs][dtn7-rs].
 
 [ietf-dtn-bpbis-25]:https://tools.ietf.org/html/draft-ietf-dtn-bpbis-25
 
+---
 
 ### ISCRAM 2020 Conference
 ##### 2020 Feb 14
@@ -190,29 +204,13 @@ Therefore Artur Sterz will probably present our paper next year.
 [iscram-2020-preprint]:{{ site.baseurl }}{% link assets/hoechst2020lora.pdf %}
 [iscram-2020-experiment]:https://github.com/umr-ds/hoechst2020lora
 
+---
 
 ### 36th Chaos Communication Congress
 ##### 2019 Dec 28
 
 Alvar Penning presented a [Lightning Talk at 36c3][36c3-lt] in Leipzig, Germany.
 The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and [YouTube][36c3-lt-youtube], the [slides are available online][36c3-lt-slides].
-
-<style>
-    .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-    }
-    .embed-container iframe, .embed-container object, .embed-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-</style>
 
 <div class='embed-container'>
   <iframe
@@ -222,14 +220,12 @@ The talk is available both at [media.ccc.de][36c3-lt-media-ccc] and [YouTube][36
   </iframe>
 </div>
 
-<!-- Force another paragraph for more space between the news items. -->
-&nbsp;
-
 [36c3-lt]:https://events.ccc.de/congress/2019/wiki/index.php/Static:Lightning_Talks
 [36c3-lt-media-ccc]:https://media.ccc.de/v/36c3-10524-lightning_talks_day_2
 [36c3-lt-youtube]:https://youtu.be/ZdnXO56QR7g?t=3780
 [36c3-lt-slides]:{{ site.baseurl }}{% link assets/36c3lt.pdf %}
 
+---
 
 ### ICT-DM 2019 Conference
 ##### 2019 Dec 18
@@ -254,6 +250,7 @@ The [research paper][ict-dm-2019-paper] and the [slides of the talk][ict-dm-2019
 [ict-dm-2019-paper]:{{ site.baseurl }}{% link assets/baumgaertner2019bdtn7.pdf %}
 [ict-dm-2019-slides]:{{ site.baseurl }}{% link assets/baumgaertner2019bdtn7-slides.pdf %}
 
+---
 
 ### AdHoc-Now 2019 Conference
 ##### 2019 Oct 01
